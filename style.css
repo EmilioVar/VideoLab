@@ -54,8 +54,7 @@ nav{
     color: white;
 }
 .buscar{
-    border-color: #000000;
-    border: 2;
+    color: white;
     background-color: rgb(124, 124, 124);
     border-radius: 30px;
 }
@@ -67,7 +66,9 @@ nav{
 }
 /** CABECERA **/
 .video{
+    position: relative;
     min-width: 1400px;
+    z-index: 1;
 }
 .cont-video{
     display: flex;
@@ -88,6 +89,9 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.title-cab{
+    font-size: 5em;
 }
 
 @keyframes arrow{
