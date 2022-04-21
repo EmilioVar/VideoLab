@@ -1,0 +1,126 @@
+body{
+    overflow-x: hidden;
+    background-color: #191919;
+    color: white;
+}
+:root{
+    --main-color: #191919;
+    --selected-color: #C84B31
+}
+/** HEADER  **/
+header{
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(40px);
+    position: fixed;
+    width: 100vw;
+    z-index: 90;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    border-bottom: 1px solid var(--selected-color);
+    height: 70px;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+}
+.ico{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    grid-column: 50px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+.link-nav{
+    margin: 0 10px;
+    color: white !important;
+}
+.txt-nav{
+    color: white;
+}
+.buscar{
+    border-color: #000000;
+    border: 2;
+    background-color: rgb(124, 124, 124);
+    border-radius: 30px;
+}
+.btn-search{
+    background-color: #f0f0f0;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+/** CABECERA **/
+.video{
+    min-width: 1400px;
+}
+.cont-video{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.txt-cabecera{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+}
+.arrows{
+    color: var(--selected-color);
+    animation: 2s arrow ease-in-out infinite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@keyframes arrow{
+    0%{
+        opacity: 0%;
+        transform: translateY(0);
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+        transform: translateY(50px);
+    }
+
+}
+
+@media (max-width: 1078px){
+    nav{
+        align-items: center;
+        height: 150px;
+        flex-direction: column;
+    }
+    .login{
+        justify-content: flex-start;
+    }
+    .ico{
+        margin: 5px 0;
+    }
+    .link-nav{
+        margin: 5px 20px;
+    }
+    .search{
+        padding-bottom: 5px;
+    }
+}
