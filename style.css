@@ -5,7 +5,9 @@ body{
 }
 :root{
     --main-color: #191919;
-    --selected-color: #C84B31
+    --selected-color: #C84B31;
+    --second-color: #ECDBBA;
+    --blue-color: #2D4263;
 }
 /** HEADER  **/
 header{
@@ -47,19 +49,39 @@ nav{
     align-items: center;
 }
 .link-nav{
+    position: relative;
     margin: 0 10px;
     color: white !important;
+    overflow: hidden;
 }
+.link-nav::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: 120px;
+
+    background-color: var(--selected-color);
+}
+.link-nav:hover::before{
+    transition: 1s;
+    transform: translateX(120px);
+}
+
+
 .txt-nav{
     color: white;
 }
 .buscar{
     color: white;
-    background-color: rgb(124, 124, 124);
+    border: 0;
+    padding: 3px;
+    background-color: var(--main-color);
     border-radius: 30px;
 }
 .btn-search{
-    background-color: #f0f0f0;
+    background-color: var(--selected-color);
     border: 0;
     border-radius: 5px;
     margin-left: 10px;
@@ -68,7 +90,6 @@ nav{
 .video{
     position: relative;
     min-width: 1400px;
-    z-index: 1;
 }
 .cont-video{
     display: flex;
