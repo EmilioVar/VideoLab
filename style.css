@@ -9,24 +9,48 @@ body{
     --second-color: #ECDBBA;
     --blue-color: #2D4263;
 }
+.volver-arriba{
+    transition: .5s;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+    position: fixed;
+    right: 15px;
+    bottom: 5px;
+}
+.volver-arriba:hover{
+    color: var(--selected-color) !important;
+}
 /** HEADER  **/
 header{
-    background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(40px);
     position: sticky;
+    background-color: rgba(0, 0, 0, 0.3);
     top: 0;
     width: 100vw;
     z-index: 90;
 }
 a{
     text-decoration: none;
+/** NAVS **/
 }
-nav{
+.nav-principal{
     border-bottom: 1px solid var(--selected-color);
     height: 70px;
     display: flex;
     flex-wrap: no-wrap;
     justify-content: space-around;
+}
+.nav-secundaria{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    background-color: var(--selected-color);
+}
+.nav-secundaria a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
 }
 .ico{
     margin-left: 30px;
@@ -273,11 +297,44 @@ nav{
 }
 
 /** CARDS **/
+.info{
+    background:linear-gradient(var(--main-color),transparent,var(--main-color)),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+}
 .card-bg{
     border-radius: 15px;
-    background-color: #373737;
-    box-shadow: 0px 0px 10px var(--second-color);
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 10px white;
 }
 .btn{
     color: white;
+}
+.separador{
+    margin: 25px auto;
+    width: 500px;
+    height: 2px;
+    background-color: white;
+}
+
+/** NOVEDADES **/
+.caratula{
+    transition: 1s;
+    width: 100px;
+    margin: 0 10px;
+}
+.pase-caratulas{
+    margin: 20px 0;
+    animation: pase-novedades 40s linear infinite;
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+}
+@keyframes pase-novedades{
+    0%{
+        transform: translateX(-300px);
+    }
+}
+.caratula:hover{
+    transform: scale(2);
+}
+.pase-caratulas:hover{
+    transform: translateX(0px);
 }
