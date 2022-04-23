@@ -1,0 +1,332 @@
+.caratula-cat{
+    position: relative;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.caratula-before{
+    overflow: hidden;
+    position: relative
+}
+.caratula-before::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "Reasons To Run Away";
+    width: 200px;
+    height: 100%;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-2{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-2::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "After, aquí empieza todo   votación 2.5 lorem ipsum tal y cual";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-2:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-3{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-3::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "Argo";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-3:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-4{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-4::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "Cuatro Hermanos";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-4:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-5{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-5::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "El hijo del acordeonista";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-5:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-6{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-6::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "El año de las lluvias torrenciales";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-6:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-7{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-7::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "La pequeña suiza";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-7:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-8{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-8::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "Fixies, amigos secretos";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-8:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-9{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-9::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "Mirai, mi hermana pequeña";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-9:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-10{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-10::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "Nación salvaje";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-10:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-11{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-11::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "Namrud";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-11:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-12{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-12::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "Onyx";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-12:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-13{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-13::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "¿Qué te juegas?";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-13:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-14{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-14::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "The invocation of Enver Simaku";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-14:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-15{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-15::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "Un corazón extraordinario";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-15:hover::before{
+    transform: translateY(0px);
+}
+.caratula-before-16{
+    overflow: hidden;
+    position: relative;
+}
+.caratula-before-16::before{
+    transition: 1s;
+    position: absolute;
+    transform: translateY(260px);
+    content: "Winter flies";
+    width: 200px;
+    height: 285.75px;
+    background-color: #c84a31d5;
+    z-index: 1;
+}
+.caratula-before-16:hover::before{
+    transform: translateY(0px);
+}
+
+/** MEDIAQUERY **/
+@media (max-width: 1078px){
+    .caratula-before::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }
+    .caratula-before-2::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-3::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-4::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-5::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-6::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-7::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-8::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-9::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-10:before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-11::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-12::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-13::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-14::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-15::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-16::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }
+}

@@ -250,7 +250,7 @@ a{
     }
 
 }
-
+/** MEDIAQUERIS **/
 @media (max-width: 1078px){
     nav{
         align-items: center;
@@ -303,6 +303,56 @@ a{
     .caratula-cat{
         width: 160px !important;
     }
+    .caratula-before::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }
+    .caratula-before-2::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-3::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-4::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-5::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-6::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-7::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-8::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-9::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-10:before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-11::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-12::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-13::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-14::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-15::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }.caratula-before-16::before{
+        width: 160px !important;
+        transform: translateY(200px);
+    }
 }
 
 /** CARDS **/
@@ -327,9 +377,12 @@ a{
 
 /** NOVEDADES **/
 .caratula{
-    transition: 1s;
+    transition: .5s;
     width: 100px;
     margin: 0 10px;
+}
+.cont-caratulas{
+    overflow-x: scroll;
 }
 .pase-caratulas{
     margin: 20px 0;
@@ -343,15 +396,18 @@ a{
     }
 }
 .caratula:hover{
-    transform: scale(2);
+    transform: translateY(-20px);
 }
 .pase-caratulas:hover{
     animation-play-state: paused;
 }
 
-/** CATÁLOGO **/
-.caratula-cat{
-    width: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
+/** EL CATÁLOGO ESTAESTÁ EN LA HOJA DE ESTILOS **/
+.scale-item{
+    transition: 1s;
+    transform: scale(1);
+}
+.scale-item:hover{
+    transform: scale(1.1);
+    z-index: 2;
 }
