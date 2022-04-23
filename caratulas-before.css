@@ -280,53 +280,53 @@
 /** MEDIAQUERY **/
 @media (max-width: 1078px){
     .caratula-before::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }
     .caratula-before-2::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-3::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-4::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-5::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-6::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-7::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-8::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-9::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-10:before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-11::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-12::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-13::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-14::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-15::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }.caratula-before-16::before{
-        width: 160px !important;
-        transform: translateY(200px);
+        width: 100px !important;
+        transform: translateY(90px);
     }
 }

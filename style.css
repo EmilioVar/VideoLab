@@ -24,7 +24,7 @@ body{
 /** HEADER  **/
 header{
     position: sticky;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
     top: 0;
     width: 100vw;
     z-index: 90;
@@ -301,63 +301,25 @@ a{
         left: 600px;
     }
     .caratula-cat{
-        width: 160px !important;
+        width: 100px !important;
     }
-    .caratula-before::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }
-    .caratula-before-2::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-3::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-4::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-5::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-6::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-7::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-8::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-9::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-10:before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-11::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-12::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-13::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-14::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-15::before{
-        width: 160px !important;
-        transform: translateY(200px);
-    }.caratula-before-16::before{
-        width: 160px !important;
-        transform: translateY(200px);
+    footer{
+        height: auto !important;
     }
 }
 
 /** CARDS **/
 .info{
+    overflow: hidden;
+    position: relative;
     background:linear-gradient(var(--main-color),transparent,var(--main-color)),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+}
+.video{
+    background: linear-gradient(var(--main-color),transparent,var(--main-color));
+    min-width: 1000px;
+    width: 100%;
+    position: absolute;
+    top: -150px;
 }
 .card-bg{
     border-radius: 15px;
@@ -401,8 +363,31 @@ a{
 .pase-caratulas:hover{
     animation-play-state: paused;
 }
+.number-page{
+    margin-top: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number-p{
+    transition: .5s;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--blue-color);
+    padding: 5px;
+    margin: 0 10px;
+}
+.number-p:hover{
+    background-color: var(--selected-color);
+}
 
 /** EL CATÁLOGO ESTAESTÁ EN LA HOJA DE ESTILOS **/
+/** CARACTERISTICAS **/
 .scale-item{
     transition: 1s;
     transform: scale(1);
@@ -410,4 +395,33 @@ a{
 .scale-item:hover{
     transform: scale(1.1);
     z-index: 2;
+}
+.video-cont{
+    animation: video 5s ease-in-out infinite;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px black;
+}
+@keyframes video{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.caracteristicas{
+    border-radius: 25px;
+    background-color: #2d426356;
+}
+/** FOOTER **/
+footer{
+    height: 150px;
+    background-color: var(--selected-color);
+}
+a{
+    color: white;
+    text-decoration: none;
 }
