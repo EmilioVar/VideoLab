@@ -257,6 +257,12 @@ a{
         height: 150px;
         flex-direction: column;
     }
+    .nav-principal{
+        height: 140px;
+    }
+    .nav-secundaria{
+        display: none;
+    }
     .login{
         justify-content: flex-start;
     }
@@ -294,6 +300,9 @@ a{
     .img-6{
         left: 600px;
     }
+    .caratula-cat{
+        width: 160px !important;
+    }
 }
 
 /** CARDS **/
@@ -312,7 +321,8 @@ a{
     margin: 25px auto;
     width: 500px;
     height: 2px;
-    background-color: white;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, .5);
 }
 
 /** NOVEDADES **/
@@ -323,18 +333,25 @@ a{
 }
 .pase-caratulas{
     margin: 20px 0;
-    animation: pase-novedades 40s linear infinite;
+    animation: pase-novedades 20s linear infinite;
     display: grid;
     grid-template-columns: repeat(16,1fr);
 }
 @keyframes pase-novedades{
     0%{
-        transform: translateX(-300px);
+        transform: translateX(-600px);
     }
 }
 .caratula:hover{
     transform: scale(2);
 }
 .pase-caratulas:hover{
-    transform: translateX(0px);
+    animation-play-state: paused;
+}
+
+/** CATÁLOGO **/
+.caratula-cat{
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
